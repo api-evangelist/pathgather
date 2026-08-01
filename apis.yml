@@ -1,21 +1,51 @@
 aid: pathgather
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pathgather.png
 name: Pathgather
-description: Pathgather is a company surfaced as a portfolio company of bloomberg-beta, techstars and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Pathgather was an enterprise Learning Experience Platform (LXP), founded in 2012
+  and headquartered in New York City, that helped large enterprises curate, share,
+  and track learning content across their existing learning ecosystems. Backed by
+  Bloomberg Beta and Techstars, Pathgather (co-founded by CEO Eric Duffy) was one
+  of the companies that established the LXP category before being acquired by Degreed
+  in June 2018; all employees joined Degreed and the standalone product was wound
+  down. Pathgather exposed a REST API in its operating years (a community Python
+  client, tonybaloney/pathgather, remains on PyPI as historical evidence), but the
+  company no longer operates independently: the pathgather.com domain is now parked
+  and publishes no live API, developer portal, or documentation surface. This profile
+  is retained in the API Evangelist network as an acquired/defunct company record.
 url: https://raw.githubusercontent.com/api-evangelist/pathgather/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - bloomberg-beta
 - techstars
+x-status: acquired
+x-acquired-by: degreed
+x-acquired-date: '2018-06-20'
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Learning Experience Platform
+- Corporate Learning
+- EdTech
+- Enterprise Software
+- Acquired
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +55,12 @@ maintainers:
 common:
 - type: Website
   url: https://pathgather.com/
+- type: GitHubOrganization
+  url: https://github.com/pathgather
+- type: Packages
+  url: packages/pathgather-packages.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

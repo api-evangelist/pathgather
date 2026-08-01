@@ -1,0 +1,23 @@
+generated: '2026-07-20'
+method: searched
+source: https://pypi.org/pypi/pathgather/json
+notes: >-
+  Pathgather (the enterprise Learning Experience Platform, founded 2012 in NYC)
+  was acquired by Degreed in June 2018 and no longer operates independently; its
+  domain is now parked and it publishes no live API surface. No FIRST-PARTY client
+  libraries were found on any registry. The one real client library discovered is
+  THIRD-PARTY: a community Python client for the historical Pathgather API written
+  by Anthony Shaw (tonybaloney). It is now archived. Recorded here for provenance;
+  official is false, so no `SDKs` pointer is emitted.
+packages:
+  - language: python
+    registry: pypi
+    name: pathgather
+    version: 1.15.0
+    url: https://pypi.org/project/pathgather/
+    source_code: https://github.com/tonybaloney/pathgather
+    install: pip install pathgather
+    summary: Python client for the Pathgather API (community/third-party, archived).
+    author: Anthony Shaw
+    official: false
+    archived: true
